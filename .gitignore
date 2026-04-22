@@ -1,0 +1,22 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+
+# Uploads (opcional, depende del proyecto)
+# Si es un proyecto final, NORMALMENTE SÍ se suben
+# /wp-content/uploads/
+
+# Cache y temporales
+/wp-content/cache/
+*.log
+
+# Configuración local
+wp-config.php
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / builds (si usas)
+node_modules/
+``
